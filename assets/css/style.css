@@ -1,7 +1,6 @@
 /* Universal selector */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: white;
   }
 
 /* Element selectors */
@@ -136,6 +135,7 @@ input[type=submit]:hover {
     margin-top: 100px;
     margin-left: 470px;
     margin-right: 50px;
+    color: white;
 }
 
 #about {
