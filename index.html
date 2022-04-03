@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sample Landing Page</title>
+    <!-- Link to stylesheet using rel and href attributes -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
+
 <body>
+    <header>
+        <!-- Add header content -->
+        <div class="header" position="relative">
+            <h1>Welcome to Our Page</h1>
+            <p>
+                <a href="https://github.com/ajolsavsky">GitHub</a> | <a href="https://www.linkedin.com/in/alexandra-olsavsky">Linked In</a> | <a href="#ContactForm">Contact</a>
+            </p>
+        </div>
+    </header>
     
+    <section id="absolute-section">
+        <figure>
+            <div id="image-box">
+                    <img src="./assets/images/contactme.png" width="400px" alt="contact me speech bubble"/>
+                <figcaption>
+                    <p class="center navy">Questions? Concerns? Don't hesitate to reach out!</p>
+                </figcaption>
+            </div>
+        </figure>
+        <section>
+            <div id="form-box">
+                <h2 class="center" id="ContactForm">Get in Touch</h2>
+                <form action="action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email address..">
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Send">
+                
+                  </form>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <p id="footer-section">
+           © 2022 ajolsavsky designs 
+        </p>
+    </footer>
 </body>
 </html>
